@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open index.html in Chrome",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/index.html",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Open index.html in Edge",
+      "type": "pwa-msedge",
+      "request": "launch",
+      "file": "${workspaceFolder}/index.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
